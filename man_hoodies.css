@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: black;
+    font-family: sans-serif;
+    background-size: center;
+}
+
+.menu-bar {
+    background: rgb(201, 76, 76);
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+
+}
+
+.menu-bar ul li {
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.active, .menu-bar ul li:hover {
+    background: black;
+    border-radius: 3px;
+}
+
+.menu-bar .fa {
+    margin-right: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+

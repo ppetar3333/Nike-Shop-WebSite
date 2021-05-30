@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: black;
+    font-family: sans-serif;
+    background-size: center;
+}
+
+.menu-bar {
+    background: rgb(201, 76, 76);
+    text-align: center;
+
+}
+
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+
+.menu-bar ul li {
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.active, .menu-bar ul li:hover {
+    background: black;
+    border-radius: 3px;
+}
+
+.menu-bar .fa {
+    margin-right: 8px;
+}
+
+/* Style the links inside the sidenav */
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    left: -100px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 150px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#history {
+    top: 300px;
+    background-color: rgb(201, 76, 76);
+}
+
+#team {
+    top: 380px;
+    background-color: rgb(201, 76, 76);
+}
+
+#owner {
+    top: 460px;
+    background-color: rgb(201, 76, 76);
+}
+
+#purpose {
+    top: 540px;
+    background-color: rgb(201, 76, 76);
+}
+
+.aboutus {
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    width: 96%;
+    padding: 20px;
+    background-color: rgb(201, 76, 76);
+}
+
+
+
+
+
+
+
+
+
+
+
+
